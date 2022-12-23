@@ -1,0 +1,8 @@
+#matrix into echelon form & find it's rank
+import numpy as np
+matrix=np.array([[1,2,1],[3,4,7], [3,6,3]])
+print (matrix)
+for row in matrix:
+    print(row)
+rank=np.linalg.matrix_rank(matrix)
+print ("rank of the given matrix=",rank)
